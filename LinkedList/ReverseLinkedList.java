@@ -4,28 +4,6 @@ package com.like.linkedlist;
  * @Description 反转链表的两种实现方法：迭代和递归
  * @Author
  */
-class ListNode{
-    int val;
-    ListNode next;
-    ListNode(){};
-
-    public ListNode(int val) {
-        this.val = val;
-    }
-
-    public ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
-    }
-}
 public class ReverseLinkedList {
     public static ListNode iterate(ListNode head){
         ListNode prev = null;
